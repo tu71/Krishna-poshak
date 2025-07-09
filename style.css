@@ -1,0 +1,36 @@
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f0f0f0;
+}
+header {
+  background: #2874f0;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+.products, .orders {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1em;
+}
+.product, .order {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin: 1em;
+  padding: 1em;
+  width: 200px;
+  text-align: center;
+}
+button {
+  background: #2874f0;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
